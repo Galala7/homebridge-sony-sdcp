@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log
+.node-version
+
+# WebStorm
+.idea
+
+# Mac
+.DS_Store

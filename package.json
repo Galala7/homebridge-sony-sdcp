@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-sony-sdcp",
+  "version": "0.0.2",
+  "description": "Sony SDCP / PJ-Talk projector control accessory plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "SDCP",
+    "homebirdge-SDCP",
+    "homebridge-sony-sdcp",
+    "homebirdge-pjtalk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Galala7/homebridge-sony-sdcp"
+  },
+  "bugs": {
+    "url": "http://github.com/Galala7/homebridge-sony-sdcp/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "sony-sdcp-com": "0.0.2"
+  }
+}
