@@ -44,7 +44,12 @@ ProjectorAccessory.prototype.getCurrentState = function (callback) {
         }
         this.log("CurrentState: %s", this.lastState);
         callback(null,this.lastState);
-    }.bind(this));
+    }.bind(this))
+    .catch (function (lastState) {
+        console.log("error in geting power state");
+        callback(null,0);
+        
+    });
 };
 
 ProjectorAccessory.prototype.setCurrentState = function (value, callback) {
