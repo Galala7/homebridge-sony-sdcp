@@ -40,7 +40,7 @@ ProjectorAccessory.prototype.getCurrentState = function (callback) {
         } else if (status === 'WARMING' || status === 'ON') {
             this.lastState = 1;
         } else {
-            this.log("Error getting stratus: %s", status)
+            this.log("Error getting status: %s", status)
         }
         this.log("CurrentState: %s", this.lastState);
         callback(null,this.lastState);
