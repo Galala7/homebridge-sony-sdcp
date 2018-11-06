@@ -18,7 +18,7 @@ function ProjectorAccessory(log, config) {
     this.config = config;
     this.name = config["name"];
     this.lastState = 0;
-    this.myClient = SdcpClient.SdcpClient({address: this.config["ip"], port: PORT});
+    this.myClient = SdcpClient.SdcpClient({address: this.config["host"], port: PORT});
 
     this.service = new Service.Switch(this.name);
     this.service
