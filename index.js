@@ -18,7 +18,7 @@ function ProjectorAccessory(log, config) {
     this.config = config;
     this.name = config["name"];
     this.lastState = 0;
-    this.ratio = 1; 
+    this.ratio = SonyProjectorCharacteristics.ScreenAspectRatio.NORMAL; 
     this.myClient = SdcpClient.SdcpClient({address: this.config["host"], port: PORT});
     
     this.switchService = new Service.Switch(this.name);
