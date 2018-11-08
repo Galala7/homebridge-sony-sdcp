@@ -38,8 +38,8 @@ function ProjectorAccessory(log, config) {
     this.informationService = new Service.AccessoryInformation();
     this.informationService
        .setCharacteristic(Characteristic.Manufacturer, "Sony")
-       .setCharacteristic(Characteristic.Model, "VPL-VW260ES")
-       .setCharacteristic(Characteristic.SerialNumber, "123-456-789");
+       .setCharacteristic(Characteristic.Model, "Projector")
+       .setCharacteristic(Characteristic.SerialNumber, "123456");
 
 }
 
