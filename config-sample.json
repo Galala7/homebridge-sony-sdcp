@@ -11,7 +11,7 @@
     {
       "accessory": "sony-sdcp-projector",
       "name": "Projector",
-      "ip": "Sony.Projector.IP.Address"
+      "host": "xxx.xxx.xxx.xxx or hostname"
     }
   ]
 }
